@@ -1,0 +1,8 @@
+
+#F90C     = ifort
+#F90FLAGS = -O2 -ip -W0 -WB -openmp -fpp -vec_report0 -traceback -g -nogen-interface -i-static \
+ -check all -check noarg_temp_created -debug-parameters all -warn all -implicitnone  -Wl,-no_pie
+ # -Wl,-no_pie: needed for -traceback in OS X
+#-openmp -O2 -ip -W0 -WB -fpp2 -vec_report0 -i-static -traceback -g  -fp-stack-check
+# -DMPIM  -mkl=parallel
+#MODULES = -module $(BUILDDIR)

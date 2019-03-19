@@ -1,0 +1,9 @@
+bin
+lib
+include
+build
+DerivedData
+*.xcodeproj
+*.mod
+*.o
+.DS_Store
